@@ -98,6 +98,9 @@ projects[multiupload_imagefield_widget][version] = "1.3"
 projects[navbar][subdir] = "contrib"
 projects[navbar][version] = "1.7"
 
+projects[oauth2_server][subdir] = "contrib"
+projects[oauth2_server][version] = "1.7"
+
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.3"
 ; Fix SQLite3 issue.
@@ -122,6 +125,9 @@ projects[restws_file][subdir] = "contrib"
 projects[restws_file][version] = "1.3"
 ; Fix Issue #3019850: Notice: Trying to get property of non-object in restws_file_restws_request_alter() (line 30 of restws_file.module).
 projects[restws_file][patch][] = "http://www.drupal.org/files/issues/2019-10-26/restws_file-bundlenotice-3019850-3.patch"
+
+projects[restws_oauth2_server][subdir] = "contrib"
+projects[restws_oauth2_server][version] = "1.x-dev"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
@@ -148,12 +154,6 @@ projects[views_tree][version] = "2.0"
 
 projects[xautoload][subdir] = "contrib"
 projects[xautoload][version] = "5.7"
-
-projects[oauth2_server][subdir] = "contrib"
-projects[oauth2_server][version] = "1.7"
-
-projects[restws_oauth2_server][subdir] = "contrib"
-projects[restws_oauth2_server][version] = "1.x-dev"
 
 ; -----------------------------------------------------------------------------
 ; Modules (Development)
